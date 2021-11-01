@@ -1,0 +1,6 @@
+galaxy_info:
+  role_name: humancoop.web
+  author: José Ignacio Amelivia Santiago <jignacio.amelivia@gmail.com>
+  description: Ansible role to install and configure humancoop/web-vue
+  license: GPLv2
+  min_ansible_version: 2.5.1
