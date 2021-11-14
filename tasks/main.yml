@@ -1,4 +1,12 @@
 ---
+
+- name: 'Check mandatory variables are defined'
+  assert:
+    that:
+      - cloudwatch_region is defined
+      - cloudwatch_log_group is defined
+      - domain_name is defined
+
 - name: Create app container
   docker_container:
     name: "{{application_name}}"
