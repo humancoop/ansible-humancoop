@@ -9,7 +9,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/humancoop/humancoop.web
+  - src: https://github.com/humancoop/ansible-humancoop
 ```
 
 ## Required variables
