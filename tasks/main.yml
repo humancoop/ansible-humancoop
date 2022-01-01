@@ -11,6 +11,7 @@
   docker_container:
     name: "{{ application_name }}"
     pull: true
+    cleanup: true
     image: "namelivia/{{ application_name }}:latest"
     memory: "10MB"
     restart_policy: "always"
